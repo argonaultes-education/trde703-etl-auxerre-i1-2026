@@ -2,7 +2,11 @@
 name = "trde703-etl-auxerre-i1-2026"
 version = "0.1.0"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "matplotlib>=3.10.8",
+    "pandas>=3.0.0",
+    "scikit-learn>=1.8.0",
+]
 
 [dependency-groups]
 dev = [
